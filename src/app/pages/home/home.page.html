@@ -1,0 +1,12 @@
+<text-section
+    title="Newsletter"
+>
+    <result-display
+        [result]="newsletterResult"
+        [showEmptyListError]="true"
+    />
+    <overview-list
+        *ngIf="newsletterResult && newsletterResult.isSuccess()"
+        [overviewListData]="newsletterOverviewListData(newsletterResult.value)"
+    />
+</text-section>

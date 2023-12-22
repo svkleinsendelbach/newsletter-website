@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "newsletter-806a6": {
+      "hosting": {
+        "newsletter": [
+          "newsletter-806a6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "newsletter-806a6"
+  }
+}
